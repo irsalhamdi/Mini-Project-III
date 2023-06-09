@@ -6,18 +6,30 @@ import (
 	"customer-relationship-management/modules/customer"
 	db2 "customer-relationship-management/utils/db"
 	"fmt"
+	"path"
+	"time"
+
 	ratelimit "github.com/JGLTechnologies/gin-rate-limit"
 	helmet "github.com/danielkov/gin-helmet"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
-	"time"
+	migrate "github.com/rubenv/sql-migrate"
 )
 
 func main() {
 	//main function
 	_ = godotenv.Load()
 	db := db2.GormMysql()
+
+	migrationSource := &migrate.FileMigrationSource{
+		Dir: path.Join("."),
+	}
+	sqlDb, _ := db.DB()
+	n, err := migrate.Exec(sqlDb, "mysql", migrationSource, migrate.Up)
+
+	fmt.Println(n, err)
+
 	router := gin.New()
 
 	router.Use(cors.Default())

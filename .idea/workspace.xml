@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d130043-8d78-48ef-b635-3c0c544ac737" name="Changes" comment="fix : mocks customer and test usecase_actor" />
+    <list default="true" id="6d130043-8d78-48ef-b635-3c0c544ac737" name="Changes" comment="fix : mocks customer and test usecase_actor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satkom_indo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/satkom_indo.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +63,7 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;deploy/docker&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
@@ -86,16 +90,7 @@
       <recent name="D:\INTERSHIP BRI\BOOTCAMP DIBIMBING GOLANG\crm_service\dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test customer">
-    <configuration name="go build customer-relationship-management" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="crm_serviceV3" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="customer-relationship-management" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test customer-relationship-management/modules/customer">
     <configuration name="go test actor" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="crm_serviceV3" />
       <working_directory value="$PROJECT_DIR$/modules/actor" />
@@ -113,6 +108,17 @@
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="customer-relationship-management/modules/actor" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test customer-relationship-management/modules/customer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crm_serviceV3" />
+      <working_directory value="$PROJECT_DIR$/modules/customer" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="customer-relationship-management/modules/customer" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -141,7 +147,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build customer-relationship-management" />
+      <item itemvalue="Go Test.go test customer-relationship-management/modules/customer" />
       <item itemvalue="Go Test.gobench actor" />
       <item itemvalue="Go Test.go test actor" />
       <item itemvalue="Go Test.go test customer" />
@@ -149,11 +155,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test customer-relationship-management/modules/customer" />
+        <item itemvalue="Go Test.go test customer-relationship-management/modules/actor" />
         <item itemvalue="Go Test.go test customer" />
         <item itemvalue="Go Test.go test actor" />
         <item itemvalue="Go Test.gobench actor" />
-        <item itemvalue="Go Build.go build customer-relationship-management" />
-        <item itemvalue="Go Test.go test customer-relationship-management/modules/actor" />
       </list>
     </recent_temporary>
   </component>
