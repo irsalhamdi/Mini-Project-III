@@ -5,9 +5,13 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
+      - PORT = :8081
+      - JWT_SECRET = your_secret_access_token_jwt
+      - EXPIRES_IN = 24
       - DB_HOST=db
       - DB_PASSWORD=secret
-      - DB_NAME=satkom_indo
+      - DB_NAME=myapp
+      - DB_PORT=3306
     ports:
       - 8081:8081
     volumes:
