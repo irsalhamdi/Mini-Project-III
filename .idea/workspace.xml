@@ -86,7 +86,7 @@
       <recent name="D:\INTERSHIP BRI\BOOTCAMP DIBIMBING GOLANG\crm_service\dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build customer-relationship-management">
+  <component name="RunManager" selected="Go Test.go test customer">
     <configuration name="go build customer-relationship-management" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="crm_serviceV3" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,17 +118,6 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="go test customer-relationship-management/modules/customer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="crm_serviceV3" />
-      <working_directory value="$PROJECT_DIR$/modules/customer" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="customer-relationship-management/modules/customer" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <configuration name="go test customer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="crm_serviceV3" />
       <working_directory value="$PROJECT_DIR$/modules/customer" />
@@ -140,32 +129,31 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="use_case_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="gobench actor" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="crm_serviceV3" />
       <working_directory value="$PROJECT_DIR$/modules/actor" />
       <root_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <kind value="DIRECTORY" />
       <package value="customer-relationship-management" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/modules/actor/use_case_test.go" />
-      <framework value="gotest" />
+      <directory value="$PROJECT_DIR$/modules/actor" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Go Build.go build customer-relationship-management" />
+      <item itemvalue="Go Test.gobench actor" />
       <item itemvalue="Go Test.go test actor" />
       <item itemvalue="Go Test.go test customer" />
       <item itemvalue="Go Test.go test customer-relationship-management/modules/actor" />
-      <item itemvalue="Go Test.go test customer-relationship-management/modules/customer" />
-      <item itemvalue="Go Test.use_case_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test customer" />
+        <item itemvalue="Go Test.go test actor" />
+        <item itemvalue="Go Test.gobench actor" />
         <item itemvalue="Go Build.go build customer-relationship-management" />
         <item itemvalue="Go Test.go test customer-relationship-management/modules/actor" />
-        <item itemvalue="Go Test.go test customer-relationship-management/modules/customer" />
-        <item itemvalue="Go Test.go test customer" />
-        <item itemvalue="Go Test.use_case_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +219,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/crm_serviceV3$go_test_actor.out" NAME="go test actor Coverage Results" MODIFIED="1686207697781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Customer_relationship_management$go_test_actor.out" NAME="go test actor Coverage Results" MODIFIED="1686215025183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Customer_relationship_management$go_test_customer.out" NAME="go test customer Coverage Results" MODIFIED="1686215185154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Customer_relationship_management$go_test_actor.out" NAME="go test actor Coverage Results" MODIFIED="1686274945268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Customer_relationship_management$go_test_customer.out" NAME="go test customer Coverage Results" MODIFIED="1686275037648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
