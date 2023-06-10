@@ -5,10 +5,8 @@
 Berikut beberapa konfigurasi yang perlu dilakukan untuk menjalankan project ini
 
 - Silahkan untuk melakukan clone pada repository ini
-- Lakukan pembuatan suatu basis data baru dengan nama satkom_indo
-- Lakukan import file dari table satkom_indo.sql
 - Silahkan buat file .env pada project yang telah di clone
-- Salin konfigurasi dari file .env-example dan sesuaikan dengan konfigurasi anda
+- Salin konfigurasi dari file .env-example
 - Silahkan download file documentation api CRM API.postman_collection.json
 - Jalankan script di bawah ini pada terminal untuk mengunduh package go
 
